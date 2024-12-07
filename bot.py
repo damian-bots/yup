@@ -18,7 +18,7 @@ START_TEXT = "Hello {}\n\nI am Auto Request Accept Bot With Working For All Chan
 
 API_ID = '24620300'
 API_HASH = '9a098f01aa56c836f2e34aee4b7ef963'
-BOT_TOKEN = '7043502393:AAEdH1AegBbo9KIA91jWcie7KRE9gXXG5kw'
+BOT_TOKEN = ''
 DB_URL = 'mongodb+srv://tusar:tusar1@cluster0.guw5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 ADMINS = '6848223695'
 
