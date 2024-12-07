@@ -65,7 +65,6 @@ async def broadcast(c, m):
         except Exception as e:
             failed += 1
         done += 1
-        if not done % 20:
     await sts.edit(f"Broadcast in progress:\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nFailed: {failed}")    
     await sts.delete()
     await message.reply_text(f"Broadcast Completed:\nCompleted in {time_taken} seconds.\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nFailed: {failed}", quote=True)
