@@ -40,7 +40,7 @@ async def start_handler(c, m):
     return await m.reply_text(text=START_TEXT.format(m.from_user.mention), disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(button))
           
 
-@Bot.on_message(filters.command(["broadcast", "users"]) & filters.user(ADMINS))  
+@Bot.on_message(filters.command(["broadcast", "users"]) & filters.user(6848223695))  
 async def broadcast(c, m):
     if m.text == "/users":
         total_users = await Data.count_documents({})
