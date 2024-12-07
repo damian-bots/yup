@@ -6,6 +6,13 @@ from os import environ as env
 import asyncio, datetime, time
 
 
+import datetime
+import time
+
+print("System time:", datetime.datetime.now())
+print("Python UTC time:", time.time())
+
+
 ACCEPTED_TEXT = "Hey {user}\n\nYour Request For {chat} Is Accepted ✅"
 START_TEXT = "Hello {}\n\nI am Auto Request Accept Bot With Working For All Channel. Add Me In Your Channel To Use"
 
